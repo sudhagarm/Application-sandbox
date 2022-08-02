@@ -55,6 +55,6 @@ print ('Alerts: ')
 print('HTML report:')
 # pprint(core.htmlreport())
 
-with open ('report.html','w') as f:f.write(zap.core.htmlreport())
+with open ('penreport.html','w') as f:f.write(zap.core.htmlreport())
 
 # pprint (zap.core.alerts())
